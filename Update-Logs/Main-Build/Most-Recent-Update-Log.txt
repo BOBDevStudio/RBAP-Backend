@@ -4,6 +4,12 @@ The format that this is written in is roughly inspired by HTML.
 
 !StartTitle!<b>V3.2.0 Update Log</b>!EndTitle!
 
+!StartSummaryList!
+
+!StartPoint1!It won't be listed here until it gets released! :)!EndPoint!
+
+!EndSummaryList!
+
 !StartChangesList!
 
 !StartPoint1!It won't be listed here until it gets released! :)!EndPoint!
