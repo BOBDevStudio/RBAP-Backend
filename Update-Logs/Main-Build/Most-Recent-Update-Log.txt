@@ -1,0 +1,11 @@
+Welcome to file for the most recent update log!
+This file is retrieved by RBAP at server startup and is decoded by it into what you see on the update logs dock.
+The format that this is written in is roughly inspired by HTML.
+
+!StartTitle!<b>V3.2.0 Update Log</b>!EndTitle!
+
+!StartChangesList!
+
+!StartPoint1!It won't be listed here until it gets released! :)!EndPoint!
+
+!EndChangesList!
