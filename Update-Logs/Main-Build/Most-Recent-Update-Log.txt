@@ -14,10 +14,10 @@ The format that this is written in is roughly inspired by HTML.
 
 !StartPoint1!All rainbow effects have been disabled and the bloxy award statue no longer rotates.!EndPoint!
 !StartPoint2!Both of these changes are temporary and are expected to be fixed within the next few updates.!EndPoint!
-!StartPoint2!Reason for this change happening is they were causing noticeable lag spikes on the server side of the game. Both of these systems are not very well optimized and are pretty dated and have only received a few small updates over the years making it so both of them are in need of a complete recode.!EndPoint!
+!StartPoint2!!AddLines1!Reason for this change happening is they were causing noticeable lag spikes on the server side of the game. Both of these systems are not very well optimized and are pretty dated and have only received a few small updates over the years making it so both of them are in need of a complete recode.!EndPoint!
 !StartPoint2!While the rainbow effect is disabled all parts that are affected by the rainbow effect will be colored light blue.!EndPoint!
 !StartPoint1!The dock placing system will now rotate docks (this should have no effect on the user-facing side of the game).!EndPoint!
-!StartPoint1!Street lights and the dock entrance lights now once again cast shadows and are no longer dependent on how far away your character is. This change has been made because it appears that Roblox has (finally) fixed the light flickering bug.!EndPoint!
+!StartPoint1!!AddLines1!Street lights and the dock entrance lights now once again cast shadows and are no longer dependent on how far away your character is. This change has been made because it appears that Roblox has (finally) fixed the light flickering bug.!EndPoint!
 !StartPoint1!A module (not made by BOB) called "Wind Shake" has been added to the game and applied to the leaves of trees.!EndPoint!
 !StartPoint1!Fixed some bugs related to the dock placing system changes that occurred in this update. None of these bugs fixed would affect the normal game and are mostly for compatibility.!EndPoint!
 !StartPoint1!Music zones now work again. Apparently I accidentally broke them with a change in one of the previous updates. I never noticed that it was broken until recently.!EndPoint!
