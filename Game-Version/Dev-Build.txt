@@ -1,1 +1,3 @@
-!UseMainBuildFileData!
+!StartBig!3!EndBig!
+!StartMedium!2!EndMedium!
+!StartSmall!0!EndSmall!
