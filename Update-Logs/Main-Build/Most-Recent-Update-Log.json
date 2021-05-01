@@ -14,7 +14,7 @@
           "Text": "Both of these changes are temporary and are expected to be fixed within the next few updates."
         },
         {
-          "AdditionalLines": 1,
+          "AdditionalLines": 1.5,
           "Text": "Reason for this change happening is they were causing noticeable lag spikes on the server side of the game. Both of these systems are not very well optimized and are pretty dated and have only received a few small updates over the years making it so both of them are in need of a complete recode."
         },
         {
