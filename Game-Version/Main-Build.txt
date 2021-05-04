@@ -1,9 +1,0 @@
-Welcome to file that decides what the game will say the current version number is!
-This file is used by the game to determine what the current version of the game is.
-This file is primarily used by the server system dock.
-
-!StartBig!3!EndBig!
-!StartMedium!1!EndMedium!
-!StartSmall!1!EndSmall!
-
-(Note that there isn't really any official name for what each number in the version number is called.)
