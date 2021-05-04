@@ -1,0 +1,1 @@
+This directory holds files that are used to determine a server's version number of the RBAP as well as the RBAP's current version number. Only one of these files in this directory will be used in a server depending on what the place id of game the server is using. The system encodes the version number as `V[BigValue].[MediumValue].[SmallValue]`.
