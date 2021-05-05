@@ -1,4 +1,5 @@
 {
   "Season_LockInSummer": false,
-  "NameTag_TitleUpdatingEnabled": false
+  "NameTag_TitleUpdatingEnabled": false,
+  "Intro_QuietAnimateScript": true
 }
