@@ -1,0 +1,3 @@
+| Flag Name | Base Value | Pre-Update Build Overwrite | Dev Build Overwrite | Flag Info |
+|-|-|-|-|-|
+| `Season_LockInSummer` | `false` |  |  | Locks the game's season in summer. This is only intended to be used for Imaging purposes. |

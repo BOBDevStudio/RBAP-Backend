@@ -1,5 +1,6 @@
 exclude:
   - Readme.md
+  - FlagsInfo.md
   - License
   - .github
   - Code of Conduct.md
