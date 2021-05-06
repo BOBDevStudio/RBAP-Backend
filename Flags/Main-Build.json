@@ -2,5 +2,6 @@
   "Season_LockInSummer": false,
   "NameTag_TitleUpdatingEnabled": false,
   "Intro_QuietAnimateScript": true,
-  "Dock_CreditsDockVisible": false
+  "Dock_CreditsDockVisible": false,
+  "Dock_GameRoomsVisible": false
 }
