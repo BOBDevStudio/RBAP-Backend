@@ -1,0 +1,51 @@
+{
+"Main": {
+{
+"Name": "BOB",
+"Icon": "https://www.roblox.com/bust-thumbnail/image?userId=241903094&width=150&height=150&format=png",
+"Description": "BOB codes and builds the game. Most stuff in the game is made by him."
+},
+{
+"Name": "UserIdToUsername(1035672391)",
+"Icon": "https://www.roblox.com/bust-thumbnail/image?userId=1035672391&width=150&height=150&format=png",
+"Description": "Inspired and helped out with the game rooms dock."
+},
+{
+"Name": "UserIdToUsername(70395518)",
+"Icon": "https://www.roblox.com/bust-thumbnail/image?userId=70395518&width=150&height=150&format=png",
+"Description": "Inspired the \"Bob the Mob\" dock."
+},
+},
+"Other": [
+{
+"Name": "UserIdToUsername(2032622)",
+"Icon": "https://www.roblox.com/bust-thumbnail/image?userId=2032622&width=150&height=150&format=png",
+"Description": "Creator of a module called \"FastWait\" which the game uses."
+},
+{
+"Name": "UserIdToUsername(31342830)",
+"Icon": "https://www.roblox.com/bust-thumbnail/image?userId=31342830&width=150&height=150&format=png",
+"Description": "Creator of the skybox that the game uses."
+},
+{
+"Name": "UserIdToUsername(33655127)",
+"Icon": "https://www.roblox.com/bust-thumbnail/image?userId=33655127&width=150&height=150&format=png",
+"Description": "Creator of a module called \"Wind Shake\". A forked version of it made by BOB is used by the game."
+},
+{
+"Name": "UserIdToUsername(82347291)",
+"Icon": "https://www.roblox.com/bust-thumbnail/image?userId=82347291&width=150&height=150&format=png",
+"Description": "Creator of \"Zone+\". A forked version of it made by BOB is used by the game."
+},
+{
+"Name": "UserIdToUsername(92658764)",
+"Icon": "https://www.roblox.com/bust-thumbnail/image?userId=92658764&width=150&height=150&format=png",
+"Description": "Creator of \"Cmdr\". A forked version of it made by BOB is used for testing in special builds of RBAP."
+},
+{
+"Name": "Roblox",
+"Icon": "rbxasset://textures/loading/robloxTilt.png",
+"Description": "Creator of \"Cmdr\". A forked version of it made by BOB is used for testing in special builds of RBAP."
+}
+]
+}
