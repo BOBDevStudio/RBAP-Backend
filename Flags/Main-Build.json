@@ -1,5 +1,6 @@
 {
   "Season_LockInSummer": false,
   "NameTag_TitleUpdatingEnabled": false,
-  "Intro_QuietAnimateScript": true
+  "Intro_QuietAnimateScript": true,
+  "Dock_CreditsDockVisible": false
 }
