@@ -24,6 +24,7 @@
 | `Dock_StageVisible` | `true` |  |  |  |
 | `Dock_UpdateLogsDockVisible` | `true` |  |  |  |
 | `Dock_WeirdHillsDockVisible` | `true` |  |  |  |
+| `GameRooms_StartDelay` | `15` |  |  |  |
 | `GameRooms_UnbitternessSaysEnabled` | `false` |  | `true` |  |
 | `Intro_QuietAnimateScript` | `true` |  |  | Quiets the error outputs from the Roblox Animate script during the intro. |
 | `NameTag_TitleUpdatingEnabled` | `false` |  | `true` | Controls whether or not the title updating system is available. |

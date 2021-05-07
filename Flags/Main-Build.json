@@ -24,6 +24,7 @@
   "Dock_UpdateLogsDockVisible": true,
   "Dock_WeirdHillsDockVisible": true,
   
+  "GameRooms_StartDelay": 15,
   "GameRooms_UnbitternessSaysEnabled": false,
   
   "Intro_QuietAnimateScript": true,
