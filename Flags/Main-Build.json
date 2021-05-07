@@ -24,6 +24,8 @@
   "Dock_UpdateLogsDockVisible": true,
   "Dock_WeirdHillsDockVisible": true,
   
+  "GameRooms_UnbitternessSaysEnabled": false,
+  
   "Intro_QuietAnimateScript": true,
   
   "NameTag_TitleUpdatingEnabled": false,
