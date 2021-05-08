@@ -10,6 +10,7 @@
       "Text": "The dock placing system now natively supports stand-alone docks that only appear with a set chance. ",
       "OtherPoints": [
         {
+          "AdditionalLines": 1,
           "Text": "Added the natively supported ability to have different versions of docks replace their counterpart with a set chance of it happening.",
           "OtherPoints": [
             {
@@ -19,6 +20,7 @@
           ]
         },
         {
+          "AdditionalLines": 1,
           "Text": "Added the natively supported ability to have dock entrances be considered reserved even if no dock actually uses said dock entrance(s).",
           "OtherPoints": [
             {
@@ -112,19 +114,21 @@
       ]
     },
     {
+      "AdditionalLines": 0.5,
       "Text": "The old game rooms dock now has a date that it will not appear in new servers after. RIP old game rooms dock 2018-2021.",
       "OtherPoints": [
         {
-          "AdditionalLines": 1,
+          "AdditionalLines": 2,
           "Text": "After noon of the 30th (PDT) the dock will not appear In newer servers and in existing servers the gate on the dock's dock entrance will be raised. Also the light on the dock entrance in existing servers will turn yellow 5 minutes beforehand."
         },
         {
-          "AdditionalLines": 1,
+          "AdditionalLines": 1.5,
           "Text": "I have some ideas on how I can still keep it around in the game for people who might like it but for the most part the dock won't appear in newer servers after the set date."
         }
       ]
     },
     {
+      "AdditionalLines": 0.5,
       "Text": "The rainbow effect has been added back to the game! However the rotation of the bloxy awards remake statue will not be returning."
     },
     {
@@ -168,15 +172,15 @@
           "Text": "The following lines of code have been added:",
           "OtherPoints": [
             {
-              "AdditionalLines": 1,
+              "AdditionalLines": 0.5,
               "Text": "Input: local function Run() print(\"Hello from a function!\") end Run()\nOutput: Hello from a function!"
             },
             {
-              "AdditionalLines": 1,
+              "AdditionalLines": 0.5,
               "Text": "Input: print(math.random(1, 9999999999))\nOutput: 😵"
             },
             {
-              "AdditionalLines": 1,
+              "AdditionalLines": 0.5,
               "Text": "Input: print(Shrug)\nOutput: (Apparently it doesn't work with JSON so please pretend like it's here lol)"
             },
             {
@@ -208,7 +212,7 @@
           "Text": "The lines of code that he types is now being controlled by a new philosophy of how it should operate:",
           "OtherPoints": [
             {
-              "AdditionalLines": 2,
+              "AdditionalLines": 3,
               "Text": "If you try a line of code out for yourself in a Roblox Lua script each line of code should work (pretending like you have the required variables and etc). There will no longer be lines of code that aren't written in Roblox's Lua. So in summary If there's some way that that line of code could run in an actual script then it is fine to include in the lines of code that he types."
             }
           ]
