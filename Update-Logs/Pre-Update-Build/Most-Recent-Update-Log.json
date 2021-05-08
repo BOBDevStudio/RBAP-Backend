@@ -1,5 +1,5 @@
 {
-  "Title": "V3.1.2 Update Log - WIP Update",
+  "Title": "V4.0.0 Update Log - WIP Update",
   "Summary": [
     {
       "Text": "This change log and update are not finalized and still have stuff coming."
@@ -7,10 +7,11 @@
   ],
   "Changes": [
     {
+	  "AdditionalLines": 0.5,
       "Text": "The dock placing system now natively supports stand-alone docks that only appear with a set chance. ",
       "OtherPoints": [
         {
-          "AdditionalLines": 1,
+          "AdditionalLines": .05,
           "Text": "Added the natively supported ability to have different versions of docks replace their counterpart with a set chance of it happening.",
           "OtherPoints": [
             {
@@ -20,7 +21,7 @@
           ]
         },
         {
-          "AdditionalLines": 1,
+          "AdditionalLines": 0.5,
           "Text": "Added the natively supported ability to have dock entrances be considered reserved even if no dock actually uses said dock entrance(s).",
           "OtherPoints": [
             {
@@ -85,7 +86,7 @@
           "Text": "Upgradability of this new system is much better than the one it's replacing."
         },
         {
-          "AdditionalLines": 1,
+          "AdditionalLines": 0.75,
           "Text": "Kinda accidentally added the way for there to be natively supported name tags on NPCs. It isn't in use but the option is there if I ever want to use it."
         }
       ]
@@ -99,7 +100,7 @@
           "Text": "Instead of porting over the \"Find The Right Color\" game (like I had originally planned) a replacement for that game has been added called \"Game Says\". This was what was preventing the dock from being enabled."
         },
         {
-          "AdditionalLines": 2,
+          "AdditionalLines": 1.75,
           "Text": "The system that handles the teleporting of your character when you fall down into the black abyss (or whatever it's called) has been improved. To be more specific it will no longer block new requests each time a player is being processed by it.",
           "OtherPoints": [
               {
@@ -108,13 +109,13 @@
           ]
         },
         {
-          "AdditionalLines": 1,
+          "AdditionalLines": 0.75,
           "Text": "The systems that run the dock now actually use the barriers on the dock (which wasn't the case due to an oversight done by me). Oops (again)!"
         }
       ]
     },
     {
-      "AdditionalLines": 0.5,
+      "AdditionalLines": 0.75,
       "Text": "The old game rooms dock now has a date that it will not appear in new servers after. RIP old game rooms dock 2018-2021.",
       "OtherPoints": [
         {
@@ -122,7 +123,7 @@
           "Text": "After noon of the 30th (PDT) the dock will not appear In newer servers and in existing servers the gate on the dock's dock entrance will be raised. Also the light on the dock entrance in existing servers will turn yellow 5 minutes beforehand."
         },
         {
-          "AdditionalLines": 1.5,
+          "AdditionalLines": 1.25,
           "Text": "I have some ideas on how I can still keep it around in the game for people who might like it but for the most part the dock won't appear in newer servers after the set date."
         }
       ]
@@ -228,7 +229,7 @@
       "Text": "The physics of dock entrances are now rendered by the server all the time instead of letting the Roblox engine decide. (So if there's someone with a laggy internet connection standing right next to a dock entrance the dock entrance shouldn't be affected.)"
     },
     {
-      "AdditionalLines": 1,
+      "AdditionalLines": 0.75,
       "Text": "Unless explicitly disabled on a per-dock basis any parts in a dock that are affected by physics will have their physics forced to be rendered by the server."
     },
     {
