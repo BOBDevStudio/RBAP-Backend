@@ -11,7 +11,7 @@
       "Text": "The dock placing system now natively supports stand-alone docks that only appear with a set chance. ",
       "OtherPoints": [
         {
-          "AdditionalLines": 0.25,
+          "AdditionalLines": 0.5,
           "Text": "Added the natively supported ability to have different versions of docks replace their counterpart with a set chance of it happening.",
           "OtherPoints": [
             {
