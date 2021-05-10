@@ -133,12 +133,16 @@
       "AdditionalLines": 0.5,
       "Text": "The rainbow effect has been added back to the game! However the rotation of the bloxy awards remake statue will not be returning."
     },
+	{
+      "AdditionalLines": 1,
+	  "Text": "The statue on the remade bloxy statue dock no longer uses any union objects which will fix collisions which has given me the ability to get rid of the barrier protecting the statue. In summary barrier gone."
+	},
     {
       "Text": "The rainbow dance floor has been readded to the game after being removed along with rainbow parties."
     },
     {
       "AdditionalLines": 1,
-      "Text": "Both the rainbow dance floor dock in the game rooms dock don't (for now at least) have their own music. This is due to technical reasons like how music zones aren't bound to any dock."
+      "Text": "Both the rainbow dance floor dock and the game rooms dock don't (for now at least) have their own music. This is due to technical reasons like how music zones aren't bound to any dock."
     },
     {
       "Text": "The system behind the animation of the camera during the intro now supports animations that are not bound to any dock.",
