@@ -156,6 +156,9 @@
       "Text": "The camera during the intro now pays a visit to the stage."
     },
     {
+      "Text": "The system behind the no standing joke dock has been rewritten entirely. It is much better at detecting characters compared to the old system."
+    },
+    {
       "Text": "The play button in the intro can no longer be clicked through the loading screen. Sorry but the loading screen is there for a reason."
     },
     {
