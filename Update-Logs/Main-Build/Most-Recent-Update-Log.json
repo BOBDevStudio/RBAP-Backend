@@ -1,43 +1,282 @@
 {
-  "Title": "V3.1.2 Update Log",
+  "Title": "V4.0.0 Update Log",
   "Summary": [
     {
-      "Text": "This update is mostly just a small expansion of the previous update."
+      "Text": "Added a new in-game update logs system."
+    },
+    {
+      "Text": "The revamped game rooms dock is now back and is now enabled!",
+	  "OtherPoints": [
+        {
+          "Text": "It features following games currently:",
+          "OtherPoints": [
+            {
+              "Text": "Four Corners (which has been ported over from the old dock)." 
+            },
+            {
+              "Text": "Four Corners: Reversed (which has been ported over from the old dock)." 
+            },
+            {
+              "Text": "Game Says (which is a replacement for the Find The Color game from the old dock)." 
+            }
+          ]
+        }
+	  }
+    },
+    {
+      "Text": "The rainbow effect has been added back."
+    },
+    {
+      "Text": "The player name tag system got a well-deserved revamp."
+    },
+    {
+      "Text": "The old game rooms dock will not appear in newer servers in a little over a week from the time of writing."
+    },
+    {
+      "Text": "A few (pretty noticeable) bugs like for example your camera not being able to look through certain objects have been fixed."
     }
   ],
   "Changes": [
     {
-      "Text": "All rainbow effects have been disabled and the bloxy award statue no longer rotates.",
+	  "AdditionalLines": 0.5,
+      "Text": "The dock placing system now natively supports stand-alone docks that only appear with a set chance. ",
       "OtherPoints": [
         {
-          "Text": "Both of these changes are temporary and are expected to be fixed within the next few updates."
+          "AdditionalLines": 0.5,
+          "Text": "Added the natively supported ability to have different versions of docks replace their counterpart with a set chance of it happening.",
+          "OtherPoints": [
+            {
+              "AdditionalLines": 1,
+              "Text": "So for example I could make a joke version of an already existing stand-alone dock and make it so it only replaces the normal dock at a certain chance." 
+            }
+          ]
         },
         {
-          "AdditionalLines": 1.5,
-          "Text": "Reason for this change happening is they were causing noticeable lag spikes on the server side of the game. Both of these systems are not very well optimized and are pretty dated and have only received a few small updates over the years making it so both of them are in need of a complete recode."
+          "AdditionalLines": 0.5,
+          "Text": "Added the natively supported ability to have dock entrances be considered reserved even if no dock actually uses said dock entrance(s).",
+          "OtherPoints": [
+            {
+              "AdditionalLines": 1,
+              "Text": "So it's basically like a dock that has a reserved dock entrance assigned to it but the dock itself doesn't exist and the dock entrance that it is assigned to still gets marked as in use." 
+            }
+          ]
         },
         {
-          "Text": "While the rainbow effect is disabled all parts that are affected by the rainbow effect will be colored light blue."
+          "Text": "I wonder if some of these changes are used in the game?! Hmm..."
         }
       ]
     },
     {
-      "Text": "The dock placing system will now rotate docks (this should have no effect on the user-facing side of the game)."
+      "Text": "The text around the play button in the intro of the game now uses white text instead of black text.",
+      "OtherPoints": [
+        {
+          "AdditionalLines": 1,
+          "Text": "When that part of the intro is small enough the background color will now be set to black instead of the grayish-white and will be made a little less transparent than it was before."
+        }
+      ]
+    },
+    {
+      "Text": "The main sign in the \"Bob the Mob\" dock now uses white text instead of black text."
+    },
+    {
+      "Text": "Night has been removed so the game is now day only and street lights are set to on."
+    },
+    {
+      "Text": "The update logs doc has been added! This is the V1 of the new system that replaces the old dev forum post."
+    },
+    {
+      "Text": "Completely threw out the old game loading system and replaced it with a new one. This change should be unnoticeable to the player.",
+      "OtherPoints": [
+        {
+          "AdditionalLines": 1,
+          "Text": "Due to the old system being a host of the rainbow party system the rainbow party system has been completely wiped out. The only thing that remains still in the backend of the game is it's dock. RIP."
+        }
+      ]
     },
     {
       "AdditionalLines": 1,
-      "Text": "Street lights and the dock entrance lights now once again cast shadows and are no longer dependent on how far away your character is. This change has been made because it appears that Roblox has (finally) fixed the light flickering bug."
+      "Text": "The backend of the server end game info dock (or server system dock for short) has been completely recoded from scratch. Due to this some statistics have been removed."
     },
     {
-      "Text": "A module (not made by BOB) called \"Wind Shake\" has been added to the game and applied to the leaves of trees."
+      "AdditionalLines": 1,
+      "Text": "Completely recoded the system that decides whether your camera can look through an object or not. This included fixes to objects that should have been able to be looked through."
+    },
+    {
+      "Text": "Completely recoded the player name tags system.",
+      "OtherPoints": [
+        {
+          "Text": "The new system has the natively supported ability of live updating titles."
+        },
+        {
+		  "AdditionalLines": 0.5,
+          "Text": "Titles now have priorities. So if a player has two titles on the same line available to them the one with the highest priority will be shown."
+        },
+        {
+          "Text": "The system has the ability to have a title apply to a wider range of players than the original system was capable of."
+        },
+        {
+          "Text": "Upgradability of this new system is much better than the one it's replacing."
+        },
+        {
+          "AdditionalLines": 0.75,
+          "Text": "Kinda accidentally added the way for there to be natively supported name tags on NPCs. It isn't in use but the option is there if I ever want to use it."
+        }
+      ]
+    },
+    {
+      "AdditionalLines": 1.5,
+      "Text": "The revamped game rooms dock has been added back after being quietly removed in V3.1 due to my unwillingness to finally finish it. Here's a list of everything different from when was added in V3 (and pretending like it was enabled when it was added):",
+      "OtherPoints": [
+        {
+          "AdditionalLines": 1.5,
+          "Text": "Instead of porting over the \"Find The Right Color\" game (like I had originally planned) a replacement for that game has been added called \"Game Says\". This was what was preventing the dock from being enabled."
+        },
+        {
+          "AdditionalLines": 1.75,
+          "Text": "The system that handles the teleporting of your character when you fall down into the black abyss (or whatever it's called) has been improved. To be more specific it will no longer block new requests each time a player is being processed by it.",
+          "OtherPoints": [
+              {
+                "Text": "Oh and also it now handles each game room's black abyss instead of just one of them. Oops!"
+              }
+          ]
+        },
+        {
+          "AdditionalLines": 0.75,
+          "Text": "The systems that run the dock now actually use the barriers on the dock (which wasn't the case due to an oversight done by me). Oops (again)!"
+        }
+      ]
+    },
+    {
+      "AdditionalLines": 0.75,
+      "Text": "The old game rooms dock now has a date that it will not appear in new servers after. RIP old game rooms dock 2018-2021.",
+      "OtherPoints": [
+        {
+          "AdditionalLines": 2,
+          "Text": "After on the end (aka midnight) of Sunday, May 23 (PDT) the dock will not appear in newer servers and in existing servers the gate on the dock's dock entrance will be raised. Also the light on the dock entrance in existing servers will turn yellow 5 minutes beforehand."
+        },
+        {
+          "AdditionalLines": 1.25,
+          "Text": "I have some ideas on how I can still keep it around in the game for people who might like it but for the most part the dock won't appear in newer servers after the set date."
+        }
+      ]
     },
     {
       "AdditionalLines": 0.5,
-      "Text": "Fixed some bugs related to the dock placing system changes that occurred in this update. None of these bugs fixed would affect the normal game and are mostly for compatibility."
+      "Text": "The rainbow effect has been added back to the game! However the rotation of the bloxy awards remake statue will not be returning."
+    },
+	{
+      "AdditionalLines": 1,
+	  "Text": "The statue on the remade bloxy statue dock no longer uses any union objects which will fix collisions which has given me the ability to get rid of the barrier protecting the statue. In summary barrier gone."
+	},
+    {
+      "Text": "The rainbow dance floor has been readded to the game after being removed along with rainbow parties."
+    },
+    {
+      "AdditionalLines": 1,
+      "Text": "Both the rainbow dance floor dock and the game rooms dock don't (for now at least) have their own music. This is due to technical reasons like how music zones aren't bound to any dock."
+    },
+    {
+      "Text": "The system behind the animation of the camera during the intro now supports animations that are not bound to any dock.",
+      "OtherPoints": [
+        {
+          "Text": "3 new camera animations have been added as a result of that."
+        }
+      ]
+    },
+    {
+      "Text": "The camera during the intro now pays a visit to the stage."
+    },
+    {
+      "Text": "The system behind the no standing joke dock has been rewritten entirely. It is much better at detecting characters compared to the old system."
+    },
+    {
+      "Text": "The play button in the intro can no longer be clicked through the loading screen. Sorry but the loading screen is there for a reason."
+    },
+    {
+      "AdditionalLines": 1,
+      "Text": "Fixed a bug that made it so you could walk right through the walls of the original window showcase. Quite literally no idea why this happened or when it started but it's fixed now.",
+      "OtherPoints": [
+        {
+          "Text": "Thanks to copy and pasting the bug also affected the newer window showcase."
+        }
+      ]
+    },
+    {
+      "Text": "The guy that types lines of code into the fake console has received a few updates:",
+      "OtherPoints": [
+        {
+          "AdditionalLines": 1,
+          "Text": "He will no longer type an entry when that entry's output is already visible on the screen. So there will no longer be constant printing of `Hello world!`"
+        },
+        {
+          "Text": "The following lines of code have been added:",
+          "OtherPoints": [
+            {
+              "AdditionalLines": 0.5,
+              "Text": "Input: local function Run() print(\"Hello from a function!\") end Run()\nOutput: Hello from a function!"
+            },
+            {
+              "AdditionalLines": 0.5,
+              "Text": "Input: print(math.random(1, 9999999999))\nOutput: 😵"
+            },
+            {
+              "AdditionalLines": 0.5,
+              "Text": "Input: print(Shrug)\nOutput: (Apparently it doesn't work with JSON so please pretend like it's here lol)"
+            },
+            {
+              "AdditionalLines": 1,
+              "Text": "Input: local Answer = QuestionAnswerer(\"Does this console have some more RGB?\") print(Answer)\nOutput: <font color=\"rgb(255,0,0)\">Y</font><font color=\"rgb(0,255,0)\">e</font><font color=\"rgb(0,0,255)\">s</font>!</s>"
+            },
+            {
+              "AdditionalLines": 1,
+              "Text": "Input: local Answer = QuestionAnswerer(\"What's BOB's favorite color?\") print(Answer)\nOutput: <font color=\"rgb(0,255,255)\">This one currently!</font> A previous one was <font color=\"rgb(0,0,255)\">this one</font> in around 2017 to 2018"
+            },
+            {
+              "Text": "Input: if SSIntroE then print(\"Hmm...\") end\nOutput: Hmm..."
+            },
+            {
+              "Text": "Input: print(game.PlaceId)\nOutput: {game.PlaceId}"
+            },
+            {
+              "Text": "Input: print(game.ClassName)\nOutput: {game.ClassName}"
+            },
+            {
+              "Text": "Input: print(typeof(game))\nOutput: {typeof(game)}"
+            },
+            {
+              "Text": "Input: print(type(game))\nOutput: {type(game)}"
+            }
+          ]
+        },
+        {
+          "Text": "The lines of code that he types is now being controlled by a new philosophy of how it should operate:",
+          "OtherPoints": [
+            {
+              "AdditionalLines": 3,
+              "Text": "If you try a line of code out for yourself in a Roblox Lua script each line of code should work (pretending like you have the required variables and etc). There will no longer be lines of code that aren't written in Roblox's Lua. So in summary If there's some way that that line of code could run in an actual script then it is fine to include in the lines of code that he types."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AdditionalLines": 1,
+      "Text": "When the game is loading the docks the dock entrances won't be animated. (So no more having to wait for dock entrances to go down after the server starts up.)"
+    },
+    {
+      "AdditionalLines": 1.5,
+      "Text": "The physics of dock entrances are now rendered by the server all the time instead of letting the Roblox engine decide. (So if there's someone with a laggy internet connection standing right next to a dock entrance the dock entrance shouldn't be affected.)"
     },
     {
       "AdditionalLines": 0.5,
-      "Text": "Music zones now work again. Apparently I accidentally broke them with a change in one of the previous updates. I never noticed that it was broken until recently."
+      "Text": "Unless explicitly disabled on a per-dock basis any parts in a dock that are affected by physics will have their physics forced to be rendered by the server."
+    },
+    {
+      "AdditionalLines": 1,
+      "Text": "Fixed a major bug with the reserved docks system of the dock placing system. This bug actually wasn't really causing any issues but it would have been if certain criteria was met which at the time of writing it has not been."
+    },
+    {
+      "Text": "Edited the kick message for when a player is subject to China's laws and regulations."
     }
   ]
 }
