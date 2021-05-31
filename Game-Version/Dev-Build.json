@@ -1,3 +1,5 @@
 {
-  "UseMainBuildFileData": true
+  "Big": 4,
+  "Medium": 1,
+  "Small": 0
 }
