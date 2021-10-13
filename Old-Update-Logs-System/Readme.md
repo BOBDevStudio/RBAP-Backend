@@ -1,1 +1,0 @@
-The files in this directory are used by the update logs dock to determine what the current update log is and the previous ones. Currently it does not support previous update logs As the system is only considered to be in V1. The system is currently just the basics of what is needed in order to say goodbye to that old dev forum post.
