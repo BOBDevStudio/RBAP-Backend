@@ -1,0 +1,1 @@
+This repository houses files that are used by RBAP (more specifically files that have nothing to do with the flags system since that has its own repository). Currently this repository is not used by the game as all previous files in this repository were made obsolete by RBAP update `V6.0.1`.
